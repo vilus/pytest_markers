@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+filterwarnings = [  # https://docs.pytest.org/en/latest/how-to/capture-warnings.html
+    "ignore::_pytest.warning_types.PytestUnknownMarkWarning"
+]
